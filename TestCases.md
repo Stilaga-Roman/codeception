@@ -29,7 +29,7 @@ ID: 1
 
 
 ID: 2
-Название: Получение информации о не существующем сотруднике
+Название: Получение информации о сотруднике с отрицательным ID
 Шаги:
 1) Отправить GET-запрос на https://main-bvxea6i-p5ymayxy7m4au.de-2.platformsh.site/api/v1/employee/-1
 2) Проверить, что возвращается статус-код 404
@@ -134,7 +134,7 @@ https://main-bvxea6i-p5ymayxy7m4au.de-2.platformsh.site/api/v1/employee/remove/{
 
 
 ID: 9
-Название: Удаление сотрудника с несуществующим ID
+Название: Удаление сотрудника с отрицательным ID
 Шаги:
 1) Отправить DELETE-запрос на
    https://main-bvxea6i-p5ymayxy7m4au.de-2.platformsh.site/api/v1/employee/remove/{-1}
