@@ -14,7 +14,7 @@ ID: 1
 "name": string,       
 "email": string,          
 "position": string,         
-"age": integer,          
+"age": integer,       
 Ожидаемый результат:         
 1) Запрос успешно отправлен             
 2) Код ответа равен 200         
