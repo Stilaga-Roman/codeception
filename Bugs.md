@@ -59,9 +59,7 @@
 
 ## ID: 5 
 ## Название: Существующий сотрудник, не удаляется из базы данных
-## Описание: При выполнении тест-кейса "Удаление сотрудника" и отправке DELETE-запроса на https://main-bvxea6i-p5ymayxy7m4au.de-2.platformsh.site/api/v1/employee/remove/{ID},
-сотрудник не удаляется и возвращается код ответа 404 NOT FOUND при попытке получить информацию 
-о сотруднике через GET-запрос на https://main-bvxea6i-p5ymayxy7m4au.de-2.platformsh.site/api/v1/employee/{ID}
+## Описание: При выполнении тест-кейса "Удаление сотрудника" и отправке DELETE-запроса на https://main-bvxea6i-p5ymayxy7m4au.de-2.platformsh.site/api/v1/employee/remove/{ID}, сотрудник не удаляется и возвращается код ответа 404 NOT FOUND при попытке получить информацию о сотруднике через GET-запрос на https://main-bvxea6i-p5ymayxy7m4au.de-2.platformsh.site/api/v1/employee/{ID}
 ## Шаги:
 1) Создать сотрудника
 2) получить его ID
